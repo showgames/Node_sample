@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>TODO</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <h1>_φ(･_･TODO</h1>
+  <ul>
+    <% for (var i = 0; i < title_posts.length; i++) { %>
+      <li><%= title_posts[i]%> - <%= contents_posts[i]%></li>
+    <% } %>
+  </ul>
+  <form method="post">
+    <input type="text" name="title">
+    <input type="text" name="contents">
+    <input type="submit" value="Post!">
+  </form>
+</body>
+</html>
