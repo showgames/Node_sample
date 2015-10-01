@@ -47,6 +47,7 @@ server.on('request', function(req, res){
 server.listen(settings.port, settings.host);
 console.log("Server listening at " + settings.host + ":" + settings.port);
 
+/* 関数群 */
 
 function renderForm(title_posts, contents_posts , res) {
   var data = ejs.render(template, {
